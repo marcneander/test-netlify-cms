@@ -2,6 +2,9 @@ backend:
   name: github
   repo: marcneander/test-netlify-cms
   
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
 collections:
   - label: "Blog"
     name: "blog"
