@@ -1,0 +1,3 @@
+backend:
+  name: github
+  repo: marcneander/test-netlify-cms
