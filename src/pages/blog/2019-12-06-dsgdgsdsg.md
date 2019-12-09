@@ -7,5 +7,6 @@ featuredpost: true
 featuredimage: /img/7705505a2a207446.png
 tags:
   - sdg sdg
+  - hejsan
 ---
  dsgdgs g dsdgs
