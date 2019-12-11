@@ -7,8 +7,8 @@ media_folder: static/img
 locale: 'en'
 
 collections:
-  - extension: "json"
   - name: "java_news"
+    extension: "json"
     label: "Java news"
     folder: "src/news/java"
     create: true
@@ -20,6 +20,7 @@ collections:
       - {label: "Image", name: "image", widget: image}
 
   - name: "dungeons_news"
+    extension: "json"
     label: "Dungeons news"
     folder: "src/news/dungeons"
     create: true
