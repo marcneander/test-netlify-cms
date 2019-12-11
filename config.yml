@@ -7,6 +7,7 @@ media_folder: static/img
 locale: 'en'
 
 collections:
+  - extension: "json"
   - name: "java_news"
     label: "Java news"
     folder: "src/news/java"
@@ -16,4 +17,14 @@ collections:
       - {label: "Description", name: "description", widget: "string"}
       - {label: "Link", name: "link", widget: "string"}
       - {label: "For Demo users", name: "forDemoUsers", widget: "boolean", default: false}
+      - {label: "Image", name: "image", widget: image}
+
+  - name: "dungeons_news"
+    label: "Dungeons news"
+    folder: "src/news/dungeons"
+    create: true
+    fields:
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Body", name: "body", widget: "markdown"}
+      - {label: "Link", name: "link", widget: "string"}
       - {label: "Image", name: "image", widget: image}
